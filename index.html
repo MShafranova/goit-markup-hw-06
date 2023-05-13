@@ -412,7 +412,7 @@
               Increase the flow of customers and sales for your business with digital marketing & growth solutions.
             </p>
           </div>
-          <div class=" container footer-media-container">
+          <div class="container footer-media-container">
           <p class="footer-social">Social media</p>
           <ul class="list icon-footer-list">
             <li class="icon-footer-item">
@@ -449,10 +449,25 @@
             </li>
           </ul>
           </div>
+          <div class=" conrainer footer-form-container">
+            <form name="subscribe-form" autocomplete="on">
+              <label for="user-email" class="footer-subscribe">Subscribe</label>
+              <input type="email" name="email" id="user-email" class="footer-input" placeholder="E-mail" required>
+
+              <button type="submit" class=" footer-subscribe-btn">
+                Subscribe
+                <svg class="icon-footer-send" width="24" height="24">
+                  <use href="./images/icons.svg#send">
+                  </use>
+                </svg>
+              </button>
+            </form>
+          </div>
       </div>
       
     </footer>
-    
+
+    <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -460,6 +475,33 @@
           <use href="./images/icons.svg#close-btn"></use>
         </svg>
       </button>
+      </div>
+      <div>
+        <form name="modal-form">
+          <fieldset class="form-group">
+            <legend>Leave your contacts and we will call you back</legend>
+            <label for="">
+              Name
+              <input type="text">
+            </label>
+            <label for="">
+              Phone
+              <input type="tel">
+            </label>
+            <label for="">
+              Email
+              <input type="email">
+            </label>
+            <label for="">
+              Comment
+              <textarea name="" id="" cols="30" rows="10"></textarea>
+            </label>
+            <label for="">
+              <input type="checkbox">
+              I accept the terms and conditions of the Privacy Policy
+            </label>
+          </fieldset>
+        </form>
       </div>
     </div>
 
