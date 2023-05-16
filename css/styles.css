@@ -531,7 +531,8 @@ background: rgba(46, 47, 66, 0.7);
 /* Media */
 .footer-media-container {
   width: 242px;
-margin-right: 80px;
+  margin-right: 80px;
+  margin-left: 0;
 }
 .footer-social {
   font-family: 'Roboto';
@@ -581,7 +582,7 @@ margin-right: 80px;
 /* Form */
 .footer-form-container {
   display: block;
-  min-width: 458px;
+  min-width: 453px;
 }
 .footer-subscribe {
   font-family: 'Roboto';
@@ -650,7 +651,7 @@ margin-right: 80px;
 .icon-footer-send {
   position: absolute;
   right: 24px;
-  top: auto;
+  top: 8px;
 }
 
 
